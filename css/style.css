@@ -8,12 +8,16 @@ header, footer {
     background-color: #1F2937;
 }
 
-header {
-    padding-bottom: 5rem;
+header, footer {
+    padding-bottom: 4rem;
+}
+
+footer {
+    padding-top: 3rem;
 }
 
 section {
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 5rem;
 }
 
@@ -152,8 +156,40 @@ button {
 .signUp {
     display: flex;
     background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.signUp-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .signUp-content h3, p {
     color: #FFFFFF;
+}
+
+.signUp-content h3 {
+    font-size: 1.5em;
+}
+
+.secondary-btn {
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+/*  */
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p {
+    color: #E5E7EB;
 }
